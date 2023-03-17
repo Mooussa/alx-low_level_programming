@@ -7,4 +7,5 @@
 int main(void)
 {
 	printf("Hello alx newbie");
+	return (0);
 }
