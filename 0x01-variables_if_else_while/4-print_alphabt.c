@@ -6,7 +6,9 @@
 */
 int main(void)
 {
-	for (int ch = 97; ch <= 122; ch++)
+	int ch;
+	/*looping through the alphabet*/
+	for (ch = 97; ch <= 122; ch++)
 	{
 		if (ch != 101 && ch != 113)
 		{
