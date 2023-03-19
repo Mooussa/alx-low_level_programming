@@ -14,21 +14,21 @@ int main(void)
 		{
 			if ((j != i) && (j > i))
 			{
-				for (k = 48; k <= 57; k++)
+			for (k = 48; k <= 57; k++)
+			{
+				if ((((k != j) && (j != i)) && (k != i)) && ((k > j) && (j > i)))
 				{
-					if ((((k != j) && (j != i)) && (k != i)) && ((k > j) && (j > i)))
+					/*Start displaying*/
+					putchar(i);
+					putchar(j);
+					putchar(k);
+					if ((k != 57) || (j != 56) || (i != 55))
 					{
-						/*Start displaying*/
-						putchar(i);
-						putchar(j);
-						putchar(k);
-						if ((k != 57) || (j != 56) || (i != 55))
-						{
-						putchar(44);
-						putchar(32);
-						}
+					putchar(44);
+					putchar(32);
 					}
 				}
+			}
 			}
 		}
 	}
