@@ -4,9 +4,11 @@
  *
  * Return: Always 0 (Success)
 */
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
+	int ch;
+
+	for (ch = 97; ch <= 122; ch++)
+		_putchar(ch);
 	_putchar(10);
-	return (0);
 }
